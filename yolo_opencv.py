@@ -4,7 +4,7 @@ import numpy as np
 
 
 # usage: 
-# python yolo_opencv.py --image multiple_4.jpg --config yolov3.cfg --weights yolov3.weights --classes yolov3.txt --original r_multiple_4.jpg
+# python yolo_opencv.py --image r_multiple_4.jpg --config yolov3.cfg --weights yolov3.weights --classes yolov3.txt --original r_multiple_4.jpg
 
 ap = argparse.ArgumentParser()
 ap.add_argument('-i', '--image', required=True,
